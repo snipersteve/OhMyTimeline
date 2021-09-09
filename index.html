@@ -11,7 +11,7 @@ avatar: https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/92
 name: 加瓦
 
 # 一个剪短的说明
-bio: 妈妈妈妈妈！
+bio: 妈妈妈妈妈妈！
 
 timeline:
 - title: 教育
@@ -292,7 +292,7 @@ timeline:
       class="relative overflow-hidden"
       :style="`min-height: calc(100vh - ${$store.headerHeight}px); margin-top: ${$store.headerHeight}px`"
     >
-      <div class="absolute w-20 bg-white border-r border-gray-600">
+      <div class="absolute w-12 bg-white border-r border-gray-600">
         <div
           class="border-b border-gray-600"
           :style="`height: ${$store.monthBarHeight}px`"
@@ -310,7 +310,7 @@ timeline:
         :style="`height: ${$store.timelineHeight() + $store.monthBarHeight}px`"
       >
         <div
-          class="ml-20 h-full overflow-y-scroll relative"
+          class="ml-12 h-full overflow-y-scroll relative"
           x-ref="timelinearea"
         >
           <template x-for="(item, index) in $store.timelineDates">
